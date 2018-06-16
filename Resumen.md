@@ -61,7 +61,13 @@ Una posible mejora del modelo podría ser la siguiente: el modelo en su versión a
 
 Otra posible mejora del modelo podría ser la utilización de la regresión logística para obtener un resultado continuo entre -1 y 1, de manera que en función de lo cerca que quede el resultado de estos valores se podría estimar una distancia en goles en el partido. Esto permitiría calcular el gol average en fase de grupos, y desharía empates en las eliminatorias.
 
+# 7. Códigos utilizados
 
+* `Obtencion_parseo_datos`: obtención, parseo y preperación de los datos
+* `Informacion_modelo`: visualización de la información utilizada
+* `Tratamiento_de_datos`: generación de funciones para crear la tabla de características del partido que se quiere predecir.
+* `Prueba_Modelos`: prueba de los tres modelos de clasificación.
+* `Simulacion_mundial`: simulación del mundial y obtención de resultados.
 
 
 
